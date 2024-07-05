@@ -1,0 +1,91 @@
+* {
+    padding : 0%;
+    margin : 0%;
+}
+
+body {
+    background-color: #F87060;
+}
+
+#title {
+    text-align: center;
+    color : #ffff;
+}
+
+.msgcontainer {
+    text-align: center;
+}
+
+#msg {
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+#newgame {
+    margin-top : 10px;
+    height: 50px;
+    width : 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #102542;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+/* main game slot */
+
+#container {
+    height : 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap : 5px;
+}
+
+.box {
+    height : 110px;
+    width : 110px;
+    background-color:white;
+    border : none;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    color : #102542;
+    font-size: 50px;
+}
+
+/* reset button slot */
+
+#resetbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset {
+    height: 50px;
+    width : 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #102542;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
